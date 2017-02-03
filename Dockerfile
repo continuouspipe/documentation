@@ -25,7 +25,7 @@ RUN npm install \
   && rm -rf themes/hugo-material-docs \
   && rm -rf public \
   && git clone https://github.com/digitalcraftsman/hugo-material-docs themes/hugo-material-docs \
-  && hugo -d /usr/share/nginx/html/
+  && hugo -d /usr/share/nginx/html/ \
   && gulp
 
 
