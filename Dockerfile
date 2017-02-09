@@ -2,7 +2,7 @@ FROM nginx
 
 # Install pygments (for syntax highlighting)
 RUN apt-get -qq update \
-	&& DEBIAN_FRONTEND=noninteractive apt-get -qq install -y --no-install-recommends python-pygments git ca-certificates \
+	&& DEBIAN_FRONTEND=noninteractive apt-get -qq install -y --no-install-recommends python-pygments git ca-certificates npm \
 	&& rm -rf /var/lib/apt/lists/*
 
 # Download and install hugo
@@ -21,9 +21,13 @@ COPY . /app
 
 
 # Automatically build site
-RUN rm -rf themes/hugo-material-docs \
+RUN npm install \
+  && rm -rf themes/hugo-material-docs \
+  && rm -rf public \
   && git clone https://github.com/digitalcraftsman/hugo-material-docs themes/hugo-material-docs \
-  && hugo -d /usr/share/nginx/html/
+  && hugo -d /usr/share/nginx/html/ \
+  && gulp
+
 
 # By default, serve site
 ENV HUGO_BASE_URL http://localhost
