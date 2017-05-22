@@ -6,6 +6,9 @@ menu:
     weight: 17
 
 weight: 17
+
+aliases:
+    - /basics/docker-images
 ---
 
 ## Docker

@@ -6,6 +6,9 @@ menu:
     weight: 15
 
 weight: 15
+
+aliases:
+    - /basics/terminology-and-concepts
 ---
 
 ## System Overview

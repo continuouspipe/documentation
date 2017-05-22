@@ -6,6 +6,9 @@ menu:
     weight: 18
 
 weight: 18
+
+aliases:
+    - /basics/kubernetes-clusters
 ---
 
 ## Kubernetes
