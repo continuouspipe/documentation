@@ -104,6 +104,22 @@ specification:
         - 80
 ```
 
+There may be instances where you need to define the protocol for your ports. Allowed protocols are `TCP` and `UDP`. `TCP` is set by default. To change this you may add the following - 
+
+
+``` yaml
+specification:
+    ports:
+        - protocol: 'UDP'
+          identifier: 'udp-1812'
+          port: 1812
+```
+
+{{< warning title="Warning" >}}
+AWS ELB doesn't currently support UDP.
+{{< /warning >}}
+
+
 {{< note title="Note" >}}
 If you have an `expose` configuration in your `docker-compose.yml` file, this configuration will be filled automatically.
 {{< /note >}}
