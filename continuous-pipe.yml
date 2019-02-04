@@ -1,3 +1,7 @@
+variables:
+    - name: COMMIT_SHA
+      expression: code_reference.sha
+
 defaults:
     cluster: ${CLUSTER}
     environment:
@@ -8,7 +12,8 @@ tasks:
         build:
             services:
                 web:
-                    image: docker.io/inviqasession/cp-documentation
+                    image: quay.io/inviqa_images/continuouspipe
+                    tag: documentation-${COMMIT_SHA}
 
     deployment:
         deploy:
