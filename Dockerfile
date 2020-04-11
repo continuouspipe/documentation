@@ -1,4 +1,4 @@
-FROM nginx
+FROM debian:stretch-slim AS build
 
 # Install pygments (for syntax highlighting)
 RUN apt-get -qq update \
@@ -26,3 +26,8 @@ RUN rm -rf themes/hugo-material-docs \
   && git checkout 194c497216c8389e02e9719381168a668a0ffb05 \
   && cd ../../ \
   && hugo -d /usr/share/nginx/html/
+
+FROM nginx:1.17-alpine
+COPY --from=build --chown=root:root /usr/share/nginx/html/ /usr/share/nginx/html/
+ENV PORT=80
+CMD /bin/sh -c 'sed -i"" "s/listen\s*80;/listen $PORT;/" /etc/nginx/conf.d/default.conf && exec nginx -g "daemon off;"'

@@ -2,7 +2,9 @@ version: '3.5'
 services:
   web:
     build: .
+    environment:
+      PORT: 12345
     expose:
-      - 80
+      - 12345
     ports:
-      - 81:80
+      - 81:12345
