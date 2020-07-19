@@ -28,6 +28,7 @@ RUN rm -rf themes/hugo-material-docs \
   && hugo -d /usr/share/nginx/html/
 
 FROM nginx:1.17-alpine
-COPY --from=build --chown=root:root /usr/share/nginx/html/ /usr/share/nginx/html/
+COPY --from=build --chown=root:root /usr/share/nginx/html/ /usr/share/nginx/html/docs/
+COPY --from=build --chown=root:root /usr/share/nginx/html/index.html /usr/share/nginx/html/
 ENV PORT=80
 CMD /bin/sh -c 'sed -i"" "s/listen\s*80;/listen $PORT;/" /etc/nginx/conf.d/default.conf && exec nginx -g "daemon off;"'
