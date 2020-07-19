@@ -26,7 +26,7 @@ cp-remote exec -s web -- ls -la
 
 ***
 
-{{< figure src="/images/remote-development/cp-remote-development-exec.svg" class="remote-development" >}}
+{{< figure src="/docs/images/remote-development/cp-remote-development-exec.svg" class="remote-development" >}}
 
 ## Interactive Mode
 
@@ -48,7 +48,7 @@ cp-remote exec -i -- /bin/sh
 
 ***
 
-{{< figure src="/images/remote-development/cp-remote-development-exec-interactive.svg" class="remote-development" >}}
+{{< figure src="/docs/images/remote-development/cp-remote-development-exec-interactive.svg" class="remote-development" >}}
 
 ## Command Reference
 

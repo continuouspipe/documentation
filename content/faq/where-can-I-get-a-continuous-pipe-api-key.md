@@ -18,11 +18,11 @@ You can generate a new API key in the account section of the console: https://yo
 
 To create a new API key, enter a description in the "New key" form:
 
-{{< figure src="/images/faq/account-api-key-new.png" class="three-quarter-width" >}}
+{{< figure src="/docs/images/faq/account-api-key-new.png" class="three-quarter-width" >}}
 
 The new key will then be visible in list of keys:
 
-{{< figure src="/images/faq/account-api-key-view.png" class="three-quarter-width" >}}
+{{< figure src="/docs/images/faq/account-api-key-view.png" class="three-quarter-width" >}}
 
 {{< note title="Note" >}} 
 If you have already built a remote development environment using `cp-remote init <token>` an API key will already have been generated for you and stored in the global configuration file `~/.cp-remote/config.yml`.

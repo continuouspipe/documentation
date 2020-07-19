@@ -34,7 +34,7 @@ cp-remote fetch --remote-project-path /public/sub-folder/
 
 ***
 
-{{< figure src="/images/remote-development/cp-remote-development-fetch.svg" class="remote-development" >}}
+{{< figure src="/docs/images/remote-development/cp-remote-development-fetch.svg" class="remote-development" >}}
 
 ## Ignoring Files
 

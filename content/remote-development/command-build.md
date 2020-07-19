@@ -26,7 +26,7 @@ The `build` command is also used to rebuild your remote environment. Assuming yo
 
 ***
 
-{{< figure src="/images/remote-development/cp-remote-development-build.svg" class="remote-development" >}}
+{{< figure src="/docs/images/remote-development/cp-remote-development-build.svg" class="remote-development" >}}
 
 ## Command Reference
 

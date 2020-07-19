@@ -16,7 +16,7 @@ Artifacts are a ContinuousPipe feature that can be used to solve the problems of
 
 These problems are addressed by introducing build steps to create separate images, and then using artifacts to copy files and folders from an initial build image to a secondary build image. 
 
-![](/images/configuration/multi-step-building.png)
+![](/docs/images/configuration/multi-step-building.png)
 
 For example, you might create an initial build image containing a GitHub access token to pull the contents of a private Git repository, then create a secondary build image and copy the code across. The secondary image would only contain the code and none of the access credentials.
 

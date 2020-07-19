@@ -45,7 +45,7 @@ This will forward both ports 3306 and 6379 to the same port in the local environ
 
 ***
 
-{{< figure src="/images/remote-development/cp-remote-development-forward.svg" class="remote-development" >}}
+{{< figure src="/docs/images/remote-development/cp-remote-development-forward.svg" class="remote-development" >}}
 
 ## Command Reference
 

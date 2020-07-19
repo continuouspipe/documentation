@@ -20,7 +20,7 @@ Print the logs for a container in a pod.
 
 ***
 
-{{< figure src="/images/remote-development/cp-remote-development-logs.svg" class="remote-development" >}}
+{{< figure src="/docs/images/remote-development/cp-remote-development-logs.svg" class="remote-development" >}}
 
 ## Command Reference
 

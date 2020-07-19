@@ -10,7 +10,7 @@ weight: 25
 
 When you create a project, you are automatically added as the default user:
 
-![](/images/quick-start/project-users-overview-default-user.png)
+![](/docs/images/quick-start/project-users-overview-default-user.png)
 
 There are two levels of user permissions:
 
@@ -63,6 +63,6 @@ At this point, if the email address does actually turn out to be associated with
 
 You will be asked to confirm the invitation:
 
-![](/images/quick-start/project-users-add-user-email-confirm-invite.png)
+![](/docs/images/quick-start/project-users-add-user-email-confirm-invite.png)
 
 The owner of that email address will be sent an invitation. They will need to open the invitation email and click on "Accept invitation". This will take them to the [ContinuousPipe console login screen](https://your-ui.example.com/) where they need to click "Login with GitHub". They will then need to create a new GitHub account as part of the login process, which can be done from the GitHub login screen by clicking on "Create an account".

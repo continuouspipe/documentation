@@ -28,7 +28,7 @@ cp-remote push --remote-project-path /public/sub-folder/
 
 ***
 
-{{< figure src="/images/remote-development/cp-remote-development-push.svg" class="remote-development" >}}
+{{< figure src="/docs/images/remote-development/cp-remote-development-push.svg" class="remote-development" >}}
 
 ## Command Reference
 

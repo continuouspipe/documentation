@@ -18,13 +18,13 @@ Sometimes you may want to use `cp-remote` to access an environment that you did 
 
 Before starting, you will need to find an environment identifier to supply to the `cp-remote` option `--kube-environment-name|-e`. You can find it in the environment tab of a flow at the top of each environment pane: 
 
-{{< figure src="/images/remote-development/environment-id-default.png" class="half-width" >}}
+{{< figure src="/docs/images/remote-development/environment-id-default.png" class="half-width" >}}
 
 As you can see here the environment id is `86ec932a-2683-11e7-8779-0a580a840466-feature-mynewfeature`. The format is `<project_key>-<branch-name>` where the project key is "86ec932a-2683-11e7-8779-0a580a840466" and branch name is "feature/mynewfeature" and has been [slugified](https://en.wikipedia.org/wiki/Semantic_URL#Slug) to become "feature-mynewfeature".
 
 You may notice that the environment identifier for a project looks much shorter, like this:
 
-{{< figure src="/images/remote-development/environment-id-config.png" class="half-width" >}}
+{{< figure src="/docs/images/remote-development/environment-id-config.png" class="half-width" >}}
 
 Here the environment id is `sfdemo-feature-mynewfeature`. This is because the default naming behaviour for environments has been changed in the deployment configuration as follows, making the naming format `sfdemo-<branch-name>`:
 

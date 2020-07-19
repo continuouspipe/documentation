@@ -210,7 +210,7 @@ If you have already built a remote environment, you will need to rebuild it usin
 
 If you review the tide progress for the new environment, you should see that the "sshforward" pod has been created:
 
-![](/images/guides/remote-environment-xdebug/cp-tide-service-sshforward.png)
+![](/docs/images/guides/remote-environment-xdebug/cp-tide-service-sshforward.png)
 
 You should also be able verify the environment using the `cp-remote pods` command:
 

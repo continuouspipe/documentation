@@ -13,7 +13,7 @@ aliases:
 
 ## System Overview
 
-{{< figure src="/images/basics/cp-system-overview.svg" class="diagram concepts" >}}
+{{< figure src="/docs/images/basics/cp-system-overview.svg" class="diagram concepts" >}}
 
 ## Projects
 

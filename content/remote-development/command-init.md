@@ -32,7 +32,7 @@ cp-remote init [token] --remote-name=foo
 
 ***
 
-{{< figure src="/images/remote-development/cp-remote-development-init.svg" class="remote-development" >}}
+{{< figure src="/docs/images/remote-development/cp-remote-development-init.svg" class="remote-development" >}}
 
 ## Interactive Mode
 
@@ -57,7 +57,7 @@ cp-remote init --interactive --reset
 
 ***
 
-{{< figure src="/images/remote-development/cp-remote-development-init-interactive.svg" class="remote-development" >}}
+{{< figure src="/docs/images/remote-development/cp-remote-development-init-interactive.svg" class="remote-development" >}}
 
 
 ## Command Reference

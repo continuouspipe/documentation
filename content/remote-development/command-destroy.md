@@ -20,7 +20,7 @@ The `destroy` command will delete the remote branch used for your remote environ
 
 ***
 
-{{< figure src="/images/remote-development/cp-remote-development-destroy.svg" class="remote-development" >}}
+{{< figure src="/docs/images/remote-development/cp-remote-development-destroy.svg" class="remote-development" >}}
 
 ## Command Reference
 

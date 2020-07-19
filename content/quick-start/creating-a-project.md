@@ -9,7 +9,7 @@ weight: 10
 ---
 When you log in for the first time you will see the project overview screen, which will be empty. You'll be prompted to create a new project.
 
-![](/images/quick-start/project-overview-no-project.png)
+![](/docs/images/quick-start/project-overview-no-project.png)
 
 To create a project, just click the "CREATE A PROJECT" button in the top right of the interface.
 
@@ -22,4 +22,4 @@ The project will not be created until a unique identifier is found. You will be 
 
 The new project will now be visible in the project overview screen.
 
-![](/images/quick-start/project-overview-new-project.png)
+![](/docs/images/quick-start/project-overview-new-project.png)

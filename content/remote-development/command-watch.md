@@ -35,7 +35,7 @@ cp-remote watch --remote-project-path= /app/sub-folder/
 
 ***
 
-{{< figure src="/images/remote-development/cp-remote-development-watch.svg" class="remote-development" >}}
+{{< figure src="/docs/images/remote-development/cp-remote-development-watch.svg" class="remote-development" >}}
 
 
 ## Sync Threshold

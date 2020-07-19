@@ -14,7 +14,7 @@ Sometimes, as part of your deployment pipeline, you'll want to wait for other se
 
 For example if you use the static code analyser tool Scrutinizer, you may want to deploy your application only if the static analysis passes.
 
-![GitHub statuses on Pull-Request](/images/github-statuses.png)
+![GitHub statuses on Pull-Request](/docs/images/github-statuses.png)
 
 In order to achieve that, you can add a `wait` task:
 

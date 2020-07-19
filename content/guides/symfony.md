@@ -166,15 +166,15 @@ The variables can also have their values provided in the `continuous-pipe.yml` f
 
 Commit any changes if not already done and push them to your code repository. You should be able to see that a tide was triggered on the overview or tides pages for the flow on https://your-ui.example.com.
 
-![](/images/guides/symfony/cp-tide-running.png)
+![](/docs/images/guides/symfony/cp-tide-running.png)
 
 Clicking on the status will show more details of the build progressing. Some steps, particularly building the image and pushing it to the registry, may take a while to complete. Once it has completed running successfully you can view the environment and from there open the web service and see the running application:
  
-![](/images/guides/symfony/cp-tide-environment.png)
+![](/docs/images/guides/symfony/cp-tide-environment.png)
  
 The default Symfony installation page should be served up (you may need to accept using the self-signed SSL cert):
  
-![](/images/guides/symfony/endpoint-view.png)
+![](/docs/images/guides/symfony/endpoint-view.png)
 
 ## Remote Development with ContinuousPipe
 
@@ -309,11 +309,11 @@ These changes will mean that the `SYMFONY_ENV` environment variable will be used
 ### Rebuild the Remote Environment
 To rebuild the remote environment with these changes, commit them to master and run `cp-remote build` - this will establish the Production pipeline. You can now switch to a branch prefixed with "cpdev" and run `cp-remote build` again to establish the Remote pipeline. You will then see the two new pipelines on the overview page in the ContinuousPipe console.
 
-![](/images/guides/symfony/cp-pipelines.png)
+![](/docs/images/guides/symfony/cp-pipelines.png)
 
 If you now load the Remote pipeline endpoint in the browser you should see the Symfony toolbar at the bottom of the page indicating that it is in development mode.
 
-![](/images/guides/symfony/endpoint-view-toolbar.png)
+![](/docs/images/guides/symfony/endpoint-view-toolbar.png)
 
 ### Start Development
 

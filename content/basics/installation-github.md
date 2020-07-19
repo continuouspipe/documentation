@@ -32,10 +32,10 @@ To install, visit https://github.com/integration/continuouspipe, which will pres
 If you get as far as creating a flow without installing the integration, you'll be prompted to do so before you can proceed.
 {{< /note >}}
 
-![](/images/basics/github-integration-install.png)
+![](/docs/images/basics/github-integration-install.png)
 
 You will then be presented with the configuration page. You can choose whether to apply the installation to all repositories associated with the account with the "All repositories" option or alternatively just limit the integration to individual repositories with the "Only selected repositories" option. Then click "Install" to complete the installation.
 
-![](/images/basics/github-integration-configure.png)
+![](/docs/images/basics/github-integration-configure.png)
 
 You are now all set and the GitHub integration is configured for the code repository.

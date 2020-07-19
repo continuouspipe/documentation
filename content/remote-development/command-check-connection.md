@@ -27,7 +27,7 @@ cp-remote checkconnection --environment example-remote-branch feature-my-shiny-n
 
 ***
 
-{{< figure src="/images/remote-development/cp-remote-development-pods.svg" class="remote-development" >}}
+{{< figure src="/docs/images/remote-development/cp-remote-development-pods.svg" class="remote-development" >}}
 
 ## Command Reference
 

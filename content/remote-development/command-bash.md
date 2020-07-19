@@ -25,7 +25,7 @@ cp-remote bash -s web
 
 ***
 
-{{< figure src="/images/remote-development/cp-remote-development-bash.svg" class="remote-development" >}}
+{{< figure src="/docs/images/remote-development/cp-remote-development-bash.svg" class="remote-development" >}}
 
 ## Interactive Mode
 
@@ -47,7 +47,7 @@ cp-remote bash -i
 
 ***
 
-{{< figure src="/images/remote-development/cp-remote-development-bash-interactive.svg" class="remote-development" >}}
+{{< figure src="/docs/images/remote-development/cp-remote-development-bash-interactive.svg" class="remote-development" >}}
 
 ## Command Reference
 

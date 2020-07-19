@@ -37,13 +37,13 @@ Tasks can also be conditional so only trigger in response to certain branch name
 
 The following diagram shows how a tide can be triggered. Additionally, it shows how [task filters]({{< relref "configuration/tasks.md#filters" >}}) can affect the execution of the tide:
 
-{{< figure src="/images/basics/cp-tide-triggers-default.svg" class="diagram concepts" >}}
+{{< figure src="/docs/images/basics/cp-tide-triggers-default.svg" class="diagram concepts" >}}
 
 ### Tide Triggers with Pipeline Filters
 
 The following diagram shows an alternative configuration using [pipeline filters]({{< relref "configuration/pipelines.md" >}}):
 
-{{< figure src="/images/basics/cp-tide-triggers-pipeline.svg" class="diagram concepts" >}}
+{{< figure src="/docs/images/basics/cp-tide-triggers-pipeline.svg" class="diagram concepts" >}}
 
 {{< note title="Note" >}}
 It is also possible to add filters to tasks when using pipelines. This creates unnecessary complexity however, so is not recommended.

@@ -9,7 +9,7 @@ weight: 60
 ---
 The final step before executing the flow is to configure it. You can do this by clicking on the flow, then selecting the "Configuration" tab. This will present you with an interface that allows you to define YAML variables.
  
-![](/images/quick-start/flow-configuration-no-config.png)
+![](/docs/images/quick-start/flow-configuration-no-config.png)
 
 We are going to variablise the image name and the cluster identifier that were defined in `continuous-pipe.yml` when [configuring your repository]({{< relref "configuring-your-repository.md" >}}). Here's a reminder of what that looks like:
 
@@ -43,7 +43,7 @@ To create the cluster variable click "ADD A VARIABLE" and then enter:
 
 Then click "SAVE".
 
-![](/images/quick-start/flow-configuration-overview.png)
+![](/docs/images/quick-start/flow-configuration-overview.png)
 
 The cluster note in `continuous-pipe.yml` can now be updated:
 

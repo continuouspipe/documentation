@@ -71,7 +71,7 @@ For now we have only got one cluster configured in ContinuousPipe. Lets assign t
 
 From within the flow, click on configuration in the sidebar, create a new environment variable named `CLUSTER` with a value to match what you set as your cluster name/identifier. I have set my cluster name as `main-cluster`. Finally save the configuration.
 
-![Flow Configuration](/images/guides/laravel/flow-variables-configuration.png)
+![Flow Configuration](/docs/images/guides/laravel/flow-variables-configuration.png)
 
 ### Adding Docker configuration
 
@@ -352,7 +352,7 @@ $ docker-compose up
 
 If everything has gone to plan, we should now see the famous "Laravel" splash page at `https://localhost`
 
-![Laravel Splash](/images/guides/laravel/laravel-splash.png)
+![Laravel Splash](/docs/images/guides/laravel/laravel-splash.png)
 
 ### Prepare to build on ContinuousPipe
 
@@ -584,15 +584,15 @@ Branch master set up to track remote branch master from origin.
 ```
 Thats it, we should now see ContinuousPipe working through our defined tasks - 
 
-![Dashboard](/images/guides/laravel/flow-overview.png)
+![Dashboard](/docs/images/guides/laravel/flow-overview.png)
 
 Once all our tasks have finished we should see a success status, everything green and a public endpoint for the web service.
 
-![Complete Tasks](/images/guides/laravel/tide-complete-tasks.png)
+![Complete Tasks](/docs/images/guides/laravel/tide-complete-tasks.png)
 
 If we now visit this endpoint in the browser e.g. `https://104.199.75.150/` we should now see that Laravel splash page we previously seen when running in our local Docker build - 
 
-![Laravel Splash](/images/guides/laravel/laravel-splash.png)
+![Laravel Splash](/docs/images/guides/laravel/laravel-splash.png)
 
 
 ## Remote development environment
@@ -648,7 +648,7 @@ You can see when it is complete and find its IP address at https://your-ui.examp
 Please wait until the build is complete to use any of this tool's other commands.
 ```
 
-![Dashboard with dev environment](/images/guides/laravel/dashboard-with-dev.png)
+![Dashboard with dev environment](/docs/images/guides/laravel/dashboard-with-dev.png)
 
 You can check that the environment is ready either from the ContinuousPipe UI or by running the following - 
 
@@ -665,7 +665,7 @@ Connected successfully and found 3 pods for the environment
 
 Now that we know all three containers (pods) have been setup we need to obtain the IP address from the ContinuousPipe UI for that tide. Lets visit the IP address in our browser and once again, we will see the Laravel splash page.
 
-![Laravel Splash](/images/guides/laravel/laravel-splash.png)
+![Laravel Splash](/docs/images/guides/laravel/laravel-splash.png)
 
 ### Watching for changes
 
@@ -683,7 +683,7 @@ Here we run the `cp-remote watch` command which will use our default `web` conta
 
 Lets edit some code and see our changes reflected in the browser. Open `resources/views/welcome.blade.php` and change the title on `Line 82`. I will change it to "Awesome Laravel".
 
-![Sublime](/images/guides/laravel/sublime.png)
+![Sublime](/docs/images/guides/laravel/sublime.png)
 
 When you save this file from within your editor, the `cp-remote watch` command will pick up these changes and `RSYNC` them to the web container. Your terminal should look something like the following - 
 
@@ -701,11 +701,11 @@ Done.
 
 Now when you check the site in the browser you should see the following - 
 
-![Awesome Laravel](/images/guides/laravel/awesome-laravel.png)
+![Awesome Laravel](/docs/images/guides/laravel/awesome-laravel.png)
 
 Here is a quick screencast of that syncing in action - 
 
-[![Laravel Screencast](/images/guides/laravel/awesome-laravel-screencast.gif)](/images/guides/laravel/awesome-laravel-screencast.gif)
+[![Laravel Screencast](/docs/images/guides/laravel/awesome-laravel-screencast.gif)](/docs/images/guides/laravel/awesome-laravel-screencast.gif)
 
 
 The syncing speeds are pretty fast, so fast in fact, I can run this from a train wifi while retaining the performance of the cloud hosting.

@@ -29,14 +29,14 @@ The second interaction is installing the ContinuousPipe integration in Bitbucket
 
 Go to the Bitbucket account settings page, and in the left menu click on "Manage integrations".
 
-![](/images/basics/bitbucket-settings-menu.png)
+![](/docs/images/basics/bitbucket-settings-menu.png)
 
 You can now click on "Install add-on from URL" and enter `https://your-api.example.com/connect/service/bitbucket/addon/` as show in this example:
 
-![](/images/basics/bitbucket-addon-install.png)
+![](/docs/images/basics/bitbucket-addon-install.png)
 
 The last step is to grant ContinuousPipe access to the code repository by clicking the "Grant access" button in the following screen.
 
-![](/images/basics/bitbucket-grant-access-popup.png)
+![](/docs/images/basics/bitbucket-grant-access-popup.png)
 
 You are now all set and the Bitbucket integration is configured for the code repository.

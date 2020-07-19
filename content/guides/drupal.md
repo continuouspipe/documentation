@@ -309,7 +309,7 @@ The variables can also have their values provided in the `continuous-pipe.yml` f
 
 Commit any changes if not already done and push them to your code repository. You should be able to see that a tide was triggered on the overview or tides pages for the flow on https://your-ui.example.com.
 
-![](/images/guides/drupal/cp-tide-running.png)
+![](/docs/images/guides/drupal/cp-tide-running.png)
 
 Clicking on the status will show more details of the build progressing. Some steps, particularly building the image and pushing it to the registry, may take a while to complete. Once it has completed running successfully you can view the environment and from there open the web service and see the running application. The default Drupal page should be visible.
 

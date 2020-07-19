@@ -9,7 +9,7 @@ weight: 40
 ---
 Before a flow can be used it needs to know where to store Docker images. This is done in the "Registries" tab of the project. You'll be prompted to add a new registry configuration.
 
-![](/images/quick-start/project-registry-overview-no-registry.png)
+![](/docs/images/quick-start/project-registry-overview-no-registry.png)
 
 To add a new registry configuration, click the “ADD” button in the top right of the interface.
 
@@ -27,4 +27,4 @@ You will then be asked to choose from the following:
 
 Then click "CREATE" to finish.
 
-![](/images/quick-start/project-registry-overview.png)
+![](/docs/images/quick-start/project-registry-overview.png)
