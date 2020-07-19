@@ -1,5 +1,5 @@
 baseurl = "/docs/"
-relativeurls = true
+relativeurls = false
 languageCode = "en-gb"
 title = "ContinuousPipe Docs"
 theme = "hugo-material-docs"
@@ -16,8 +16,8 @@ PygmentsOptions = "startinline=true"
 	copyright = "Released under the MIT license"
 
 	#version = "1.0.0"
-	logo = "images/logo.png"
-	favicon = "images/favicon.png"
+	logo = "/images/logo.png"
+	favicon = "/images/favicon.png"
 
 	permalink = "#"
 
