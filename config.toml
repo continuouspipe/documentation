@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "/docs/"
 relativeurls = true
 languageCode = "en-gb"
 title = "ContinuousPipe Docs"

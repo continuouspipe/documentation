@@ -29,7 +29,7 @@ tasks:
                         - name: stable
                           ingress:
                               class: nginx
-                              host: docs.continuouspipe.io
+                              host: continuouspipe.github.io
                           condition: 'code_reference.branch == "master"'
                           ssl_certificates: [{ name: auto, cert: automatic, key: automatic }]
                     deployment_strategy:
