@@ -78,7 +78,7 @@ The commands you can use with the `--interactive` option are:
 * [bash]({{< relref "remote-development/command-bash.md#interactive-mode" >}}) command
 * [exec]({{< relref "remote-development/command-exec.md#interactive-mode" >}}) command
 
-If you have not previously run interactive mode with any command, you will first need to generate a [ContinuousPipe API key](https://authenticator.continuouspipe.io/account/api-keys).
+If you have not previously run interactive mode with any command, you will first need to generate a [ContinuousPipe API key](https://your-api.example.com/account/api-keys).
 
 The first time you run the the `--interactive` option with any of the above commands you will be prompted to enter your ContinuousPipe username and the ContinuousPipe API key you generated. These credentials are then stored in a global configuration file `~/.cp-remote/config.yml` (on Linux/OSX) `C:\Users\{YourUserName}\.cp-remote\config.yml` (on Windows), so you won't need to enter them again.
 

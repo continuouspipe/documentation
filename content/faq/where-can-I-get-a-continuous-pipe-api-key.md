@@ -14,7 +14,7 @@ ContinuousPipe API keys can be used with the `cp-remote` tool in [interactive mo
 
 ## Creating a ContinuousPipe API Key
 
-You can generate a new API key in the account section of the console: https://authenticator.continuouspipe.io/account/api-keys.
+You can generate a new API key in the account section of the console: https://your-api.example.com/account/api-keys.
 
 To create a new API key, enter a description in the "New key" form:
 

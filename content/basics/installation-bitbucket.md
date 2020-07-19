@@ -31,7 +31,7 @@ Go to the Bitbucket account settings page, and in the left menu click on "Manage
 
 ![](/images/basics/bitbucket-settings-menu.png)
 
-You can now click on "Install add-on from URL" and enter `https://authenticator.continuouspipe.io/connect/service/bitbucket/addon/` as show in this example:
+You can now click on "Install add-on from URL" and enter `https://your-api.example.com/connect/service/bitbucket/addon/` as show in this example:
 
 ![](/images/basics/bitbucket-addon-install.png)
 

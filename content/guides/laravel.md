@@ -644,7 +644,7 @@ Total 0 (delta 0), reused 0 (delta 0)
 To github.com:continuouspipe/demo-laravel.git
  * [new branch]      master -> dev-richdynamix
 Continuous Pipe will now build your developer environment
-You can see when it is complete and find its IP address at https://ui.continuouspipe.io/
+You can see when it is complete and find its IP address at https://your-ui.example.com/
 Please wait until the build is complete to use any of this tool's other commands.
 ```
 

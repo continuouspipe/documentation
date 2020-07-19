@@ -7,7 +7,7 @@ menu:
 weight: 5
 linkTitle: Billing Profile
 ---
-To create a billing profile you will first need to log into the [ContinuousPipe console](https://ui.continuouspipe.io/). You then need to navigate to the Account section using the sub menu in the top right corner. 
+To create a billing profile you will first need to log into the [ContinuousPipe console](https://your-ui.example.com/). You then need to navigate to the Account section using the sub menu in the top right corner. 
 
 ![](/images/faq/billing-account-menu.png)
 

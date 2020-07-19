@@ -42,7 +42,7 @@ You will then be asked to enter the following information:
 
 Then click "ADD" to finish.
 
-The owner of that account will have instant access to the project by going to the [ContinuousPipe console login screen](https://ui.continuouspipe.io/) and clicking "Login with GitHub". If the user is already authenticated with GitHub, they will be logged straight into the console. Otherwise the user will need to enter their GitHub login credentials.
+The owner of that account will have instant access to the project by going to the [ContinuousPipe console login screen](https://your-ui.example.com/) and clicking "Login with GitHub". If the user is already authenticated with GitHub, they will be logged straight into the console. Otherwise the user will need to enter their GitHub login credentials.
 
 ### Invite User Using Email Address 
 
@@ -65,4 +65,4 @@ You will be asked to confirm the invitation:
 
 ![](/images/quick-start/project-users-add-user-email-confirm-invite.png)
 
-The owner of that email address will be sent an invitation. They will need to open the invitation email and click on "Accept invitation". This will take them to the [ContinuousPipe console login screen](https://ui.continuouspipe.io/) where they need to click "Login with GitHub". They will then need to create a new GitHub account as part of the login process, which can be done from the GitHub login screen by clicking on "Create an account".
+The owner of that email address will be sent an invitation. They will need to open the invitation email and click on "Accept invitation". This will take them to the [ContinuousPipe console login screen](https://your-ui.example.com/) where they need to click "Login with GitHub". They will then need to create a new GitHub account as part of the login process, which can be done from the GitHub login screen by clicking on "Create an account".
