@@ -16,7 +16,7 @@ ContinuousPipe takes a minimal approach to configuration, and works with existin
 .
 ├── Dockerfile          | https://docs.docker.com/engine/reference/builder/
 ├── docker-compose.yml  | https://docs.docker.com/compose/compose-file/
-└── continuous-pipe.yml | https://docs.continuouspipe.io/configuration/tasks/
+└── continuous-pipe.yml | https://documentation-continuouspipe.github.io/configuration/tasks/
 ```
 
 The `continuous-pipe.yml` file extends `docker-compose.yml`. It allows the ContinuousPipe build and deployment to be configured using a set of tasks expressed using YAML. When a flow is triggered the configuration files are read from the branch that is being acted upon.

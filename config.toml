@@ -21,7 +21,7 @@ PygmentsOptions = "startinline=true"
 
 	permalink = "#"
 
-	cpwebsite = "https://continuouspipe.io/"
+	cpwebsite = "https://continuouspipe.github.io/"
 
 	# Custom assets
 	custom_css = [ "https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css","stylesheets/custom.css" ]
@@ -41,7 +41,6 @@ PygmentsOptions = "startinline=true"
 [social]
 	twitter = "continuouspipe"
 	github  = "continuouspipe"
-	email   = "support@continuouspipe.io"
 
 [[menu.main]]
 	name   = "Basics"

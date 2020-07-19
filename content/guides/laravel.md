@@ -17,7 +17,7 @@ In this tutorial we are going to setup a new Laravel project, run it within Dock
 Before getting started you will need the following - 
 
 - A [GitHub](https://github.com/) or [Bitbucket](https://bitbucket.org/) account to host your Laravel project
-- A [ContinuousPipe](https://continuouspipe.io/) account
+- A [ContinuousPipe](https://continuouspipe.github.io/) account
 - A Kubernetes cluster e.g. [AWS](https://aws.amazon.com/), [GCE](https://cloud.google.com/container-engine/) or [Azure](https://azure.microsoft.com/en-au/)
 - A Docker Registry account e.g. [docker.io](https://docker.io) or [quay.io](https://quay.io)
 
@@ -531,7 +531,7 @@ application:
 
 Here we are creating a new web container, making it accessible to the public which instructs ContinuousPipe to get an IP address from the load balancer. We inject the environment variables previously defined in the `initalization` task, and finally we configure the resources required from the cluster and open up the required ports, `80` and `443`
 
-The last section of this task is the `deployment_strategy` which configures how ContinuousPipe will determine when the container is finished building and if it was successful or not. For more information on health checks please refer to [http://docs.continuouspipe.io/](http://docs.continuouspipe.io/configuration/deployments/#health-checks)
+The last section of this task is the `deployment_strategy` which configures how ContinuousPipe will determine when the container is finished building and if it was successful or not. For more information on health checks please refer to [http://documentation-continuouspipe.github.io/](http://documentation-continuouspipe.github.io/configuration/deployments/#health-checks)
 
 Now that we have defined our `continuous-pipe.yml` file lets configure that one last script we set to use in the `initialization` task. Create a new file `tools/docker/setup/setup.sh` with the following - 
 
@@ -718,4 +718,4 @@ ContinuousPipe is a fantastic tool for simplifying container orchestration and d
 
 There is far more we can do with ContinuousPipe to increase productivity, for example, we can use filters to determine when tasks are run. Perhaps we only want certain branches to build environments, or a certain GitHub label on a Pull-Request to trigger the build. We can also go one step further and separate our builds into pipelines. Perhaps we want to have a separate pipeline for production compared to development or testing. This is useful if there are certain environment variables and tasks that should only be used in development but not production.
 
-This getting started guide should be treated as a first step, please refer to the [http://docs.continuouspipe.io](http://docs.continuouspipe.io) for more advanced tutorials.
+This getting started guide should be treated as a first step, please refer to the [http://documentation-continuouspipe.github.io](http://documentation-continuouspipe.github.io) for more advanced tutorials.
